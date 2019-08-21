@@ -5,7 +5,7 @@ def valid_move?(board, index)
     return true
   end
 
-  
+  if board[index] 
 
 end
 
