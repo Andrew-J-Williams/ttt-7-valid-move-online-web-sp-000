@@ -2,8 +2,6 @@
 def valid_move?(board, index)
   if board[index].between(0, 8) && position_taken == false
     puts "Valid move!"
-  else
-    return nil
   end
 end
 
