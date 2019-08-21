@@ -5,7 +5,7 @@ def valid_move?(board, index)
     return true
   end
 
-  if board[index] >= 1 || board[index] <= 9
+  if index.to_i >= 1 || board[index] <= 9
     return true
   end
 
